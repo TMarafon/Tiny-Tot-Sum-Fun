@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E22E3382B2435BD00B57A7E /* Tiny_Tot_Sum_FunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22E3372B2435BD00B57A7E /* Tiny_Tot_Sum_FunApp.swift */; };
+		7E22E33A2B2435BD00B57A7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22E3392B2435BD00B57A7E /* ContentView.swift */; };
+		7E22E33C2B2435C000B57A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E22E33B2B2435C000B57A7E /* Assets.xcassets */; };
+		7E22E33F2B2435C000B57A7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E22E33E2B2435C000B57A7E /* Preview Assets.xcassets */; };
+		7E22E3492B2435C000B57A7E /* Tiny_Tot_Sum_FunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22E3482B2435C000B57A7E /* Tiny_Tot_Sum_FunTests.swift */; };
+		7E22E3532B2435C000B57A7E /* Tiny_Tot_Sum_FunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22E3522B2435C000B57A7E /* Tiny_Tot_Sum_FunUITests.swift */; };
+		7E22E3552B2435C000B57A7E /* Tiny_Tot_Sum_FunUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22E3542B2435C000B57A7E /* Tiny_Tot_Sum_FunUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E22E3452B2435C000B57A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E22E32C2B2435BD00B57A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E22E3332B2435BD00B57A7E;
+			remoteInfo = "Tiny Tot Sum Fun";
+		};
+		7E22E34F2B2435C000B57A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E22E32C2B2435BD00B57A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E22E3332B2435BD00B57A7E;
+			remoteInfo = "Tiny Tot Sum Fun";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E22E3342B2435BD00B57A7E /* Tiny Tot Sum Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiny Tot Sum Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E22E3372B2435BD00B57A7E /* Tiny_Tot_Sum_FunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiny_Tot_Sum_FunApp.swift; sourceTree = "<group>"; };
+		7E22E3392B2435BD00B57A7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E22E33B2B2435C000B57A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E22E33E2B2435C000B57A7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E22E3442B2435C000B57A7E /* Tiny Tot Sum FunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tiny Tot Sum FunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E22E3482B2435C000B57A7E /* Tiny_Tot_Sum_FunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiny_Tot_Sum_FunTests.swift; sourceTree = "<group>"; };
+		7E22E34E2B2435C000B57A7E /* Tiny Tot Sum FunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tiny Tot Sum FunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E22E3522B2435C000B57A7E /* Tiny_Tot_Sum_FunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiny_Tot_Sum_FunUITests.swift; sourceTree = "<group>"; };
+		7E22E3542B2435C000B57A7E /* Tiny_Tot_Sum_FunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiny_Tot_Sum_FunUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E22E3312B2435BD00B57A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E22E3412B2435C000B57A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E22E34B2B2435C000B57A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E22E32B2B2435BD00B57A7E = {
+			isa = PBXGroup;
+			children = (
+				7E22E3362B2435BD00B57A7E /* Tiny Tot Sum Fun */,
+				7E22E3472B2435C000B57A7E /* Tiny Tot Sum FunTests */,
+				7E22E3512B2435C000B57A7E /* Tiny Tot Sum FunUITests */,
+				7E22E3352B2435BD00B57A7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E22E3352B2435BD00B57A7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E22E3342B2435BD00B57A7E /* Tiny Tot Sum Fun.app */,
+				7E22E3442B2435C000B57A7E /* Tiny Tot Sum FunTests.xctest */,
+				7E22E34E2B2435C000B57A7E /* Tiny Tot Sum FunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E22E3362B2435BD00B57A7E /* Tiny Tot Sum Fun */ = {
+			isa = PBXGroup;
+			children = (
+				7E22E3372B2435BD00B57A7E /* Tiny_Tot_Sum_FunApp.swift */,
+				7E22E3392B2435BD00B57A7E /* ContentView.swift */,
+				7E22E33B2B2435C000B57A7E /* Assets.xcassets */,
+				7E22E33D2B2435C000B57A7E /* Preview Content */,
+			);
+			path = "Tiny Tot Sum Fun";
+			sourceTree = "<group>";
+		};
+		7E22E33D2B2435C000B57A7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7E22E33E2B2435C000B57A7E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7E22E3472B2435C000B57A7E /* Tiny Tot Sum FunTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E22E3482B2435C000B57A7E /* Tiny_Tot_Sum_FunTests.swift */,
+			);
+			path = "Tiny Tot Sum FunTests";
+			sourceTree = "<group>";
+		};
+		7E22E3512B2435C000B57A7E /* Tiny Tot Sum FunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E22E3522B2435C000B57A7E /* Tiny_Tot_Sum_FunUITests.swift */,
+				7E22E3542B2435C000B57A7E /* Tiny_Tot_Sum_FunUITestsLaunchTests.swift */,
+			);
+			path = "Tiny Tot Sum FunUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E22E3332B2435BD00B57A7E /* Tiny Tot Sum Fun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E22E3582B2435C000B57A7E /* Build configuration list for PBXNativeTarget "Tiny Tot Sum Fun" */;
+			buildPhases = (
+				7E22E3302B2435BD00B57A7E /* Sources */,
+				7E22E3312B2435BD00B57A7E /* Frameworks */,
+				7E22E3322B2435BD00B57A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tiny Tot Sum Fun";
+			productName = "Tiny Tot Sum Fun";
+			productReference = 7E22E3342B2435BD00B57A7E /* Tiny Tot Sum Fun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E22E3432B2435C000B57A7E /* Tiny Tot Sum FunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E22E35B2B2435C000B57A7E /* Build configuration list for PBXNativeTarget "Tiny Tot Sum FunTests" */;
+			buildPhases = (
+				7E22E3402B2435C000B57A7E /* Sources */,
+				7E22E3412B2435C000B57A7E /* Frameworks */,
+				7E22E3422B2435C000B57A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E22E3462B2435C000B57A7E /* PBXTargetDependency */,
+			);
+			name = "Tiny Tot Sum FunTests";
+			productName = "Tiny Tot Sum FunTests";
+			productReference = 7E22E3442B2435C000B57A7E /* Tiny Tot Sum FunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E22E34D2B2435C000B57A7E /* Tiny Tot Sum FunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E22E35E2B2435C000B57A7E /* Build configuration list for PBXNativeTarget "Tiny Tot Sum FunUITests" */;
+			buildPhases = (
+				7E22E34A2B2435C000B57A7E /* Sources */,
+				7E22E34B2B2435C000B57A7E /* Frameworks */,
+				7E22E34C2B2435C000B57A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E22E3502B2435C000B57A7E /* PBXTargetDependency */,
+			);
+			name = "Tiny Tot Sum FunUITests";
+			productName = "Tiny Tot Sum FunUITests";
+			productReference = 7E22E34E2B2435C000B57A7E /* Tiny Tot Sum FunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E22E32C2B2435BD00B57A7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7E22E3332B2435BD00B57A7E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7E22E3432B2435C000B57A7E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7E22E3332B2435BD00B57A7E;
+					};
+					7E22E34D2B2435C000B57A7E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7E22E3332B2435BD00B57A7E;
+					};
+				};
+			};
+			buildConfigurationList = 7E22E32F2B2435BD00B57A7E /* Build configuration list for PBXProject "Tiny Tot Sum Fun" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E22E32B2B2435BD00B57A7E;
+			productRefGroup = 7E22E3352B2435BD00B57A7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E22E3332B2435BD00B57A7E /* Tiny Tot Sum Fun */,
+				7E22E3432B2435C000B57A7E /* Tiny Tot Sum FunTests */,
+				7E22E34D2B2435C000B57A7E /* Tiny Tot Sum FunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E22E3322B2435BD00B57A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E22E33F2B2435C000B57A7E /* Preview Assets.xcassets in Resources */,
+				7E22E33C2B2435C000B57A7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E22E3422B2435C000B57A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E22E34C2B2435C000B57A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E22E3302B2435BD00B57A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E22E33A2B2435BD00B57A7E /* ContentView.swift in Sources */,
+				7E22E3382B2435BD00B57A7E /* Tiny_Tot_Sum_FunApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E22E3402B2435C000B57A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E22E3492B2435C000B57A7E /* Tiny_Tot_Sum_FunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E22E34A2B2435C000B57A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E22E3552B2435C000B57A7E /* Tiny_Tot_Sum_FunUITestsLaunchTests.swift in Sources */,
+				7E22E3532B2435C000B57A7E /* Tiny_Tot_Sum_FunUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E22E3462B2435C000B57A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E22E3332B2435BD00B57A7E /* Tiny Tot Sum Fun */;
+			targetProxy = 7E22E3452B2435C000B57A7E /* PBXContainerItemProxy */;
+		};
+		7E22E3502B2435C000B57A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E22E3332B2435BD00B57A7E /* Tiny Tot Sum Fun */;
+			targetProxy = 7E22E34F2B2435C000B57A7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7E22E3562B2435C000B57A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E22E3572B2435C000B57A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E22E3592B2435C000B57A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tiny Tot Sum Fun/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.Tiny-Tot-Sum-Fun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E22E35A2B2435C000B57A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tiny Tot Sum Fun/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.Tiny-Tot-Sum-Fun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E22E35C2B2435C000B57A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.Tiny-Tot-Sum-FunTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tiny Tot Sum Fun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tiny Tot Sum Fun";
+			};
+			name = Debug;
+		};
+		7E22E35D2B2435C000B57A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.Tiny-Tot-Sum-FunTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tiny Tot Sum Fun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tiny Tot Sum Fun";
+			};
+			name = Release;
+		};
+		7E22E35F2B2435C000B57A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.Tiny-Tot-Sum-FunUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tiny Tot Sum Fun";
+			};
+			name = Debug;
+		};
+		7E22E3602B2435C000B57A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.Tiny-Tot-Sum-FunUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tiny Tot Sum Fun";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E22E32F2B2435BD00B57A7E /* Build configuration list for PBXProject "Tiny Tot Sum Fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E22E3562B2435C000B57A7E /* Debug */,
+				7E22E3572B2435C000B57A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E22E3582B2435C000B57A7E /* Build configuration list for PBXNativeTarget "Tiny Tot Sum Fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E22E3592B2435C000B57A7E /* Debug */,
+				7E22E35A2B2435C000B57A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E22E35B2B2435C000B57A7E /* Build configuration list for PBXNativeTarget "Tiny Tot Sum FunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E22E35C2B2435C000B57A7E /* Debug */,
+				7E22E35D2B2435C000B57A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E22E35E2B2435C000B57A7E /* Build configuration list for PBXNativeTarget "Tiny Tot Sum FunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E22E35F2B2435C000B57A7E /* Debug */,
+				7E22E3602B2435C000B57A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E22E32C2B2435BD00B57A7E /* Project object */;
+}
