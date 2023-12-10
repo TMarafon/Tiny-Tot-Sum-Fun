@@ -14,6 +14,9 @@
 		7E22E3492B2435C000B57A7E /* Tiny_Tot_Sum_FunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22E3482B2435C000B57A7E /* Tiny_Tot_Sum_FunTests.swift */; };
 		7E22E3532B2435C000B57A7E /* Tiny_Tot_Sum_FunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22E3522B2435C000B57A7E /* Tiny_Tot_Sum_FunUITests.swift */; };
 		7E22E3552B2435C000B57A7E /* Tiny_Tot_Sum_FunUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22E3542B2435C000B57A7E /* Tiny_Tot_Sum_FunUITestsLaunchTests.swift */; };
+		7E22E3622B243CE000B57A7E /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E22E3612B243CE000B57A7E /* monkey.png */; };
+		7E22E3642B250F3A00B57A7E /* monkey.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E22E3632B250F3A00B57A7E /* monkey.wav */; };
+		7E22E3662B250FFB00B57A7E /* uhh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E22E3652B250FFB00B57A7E /* uhh.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		7E22E34E2B2435C000B57A7E /* Tiny Tot Sum FunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tiny Tot Sum FunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E22E3522B2435C000B57A7E /* Tiny_Tot_Sum_FunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiny_Tot_Sum_FunUITests.swift; sourceTree = "<group>"; };
 		7E22E3542B2435C000B57A7E /* Tiny_Tot_Sum_FunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiny_Tot_Sum_FunUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E22E3612B243CE000B57A7E /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monkey.png; path = "Tiny Tot Sum Fun/monkey.png"; sourceTree = SOURCE_ROOT; };
+		7E22E3632B250F3A00B57A7E /* monkey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = monkey.wav; sourceTree = "<group>"; };
+		7E22E3652B250FFB00B57A7E /* uhh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = uhh.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 				7E22E3372B2435BD00B57A7E /* Tiny_Tot_Sum_FunApp.swift */,
 				7E22E3392B2435BD00B57A7E /* ContentView.swift */,
 				7E22E33B2B2435C000B57A7E /* Assets.xcassets */,
+				7E22E3632B250F3A00B57A7E /* monkey.wav */,
+				7E22E3652B250FFB00B57A7E /* uhh.wav */,
+				7E22E3612B243CE000B57A7E /* monkey.png */,
 				7E22E33D2B2435C000B57A7E /* Preview Content */,
 			);
 			path = "Tiny Tot Sum Fun";
@@ -231,8 +240,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E22E3622B243CE000B57A7E /* monkey.png in Resources */,
+				7E22E3642B250F3A00B57A7E /* monkey.wav in Resources */,
 				7E22E33F2B2435C000B57A7E /* Preview Assets.xcassets in Resources */,
 				7E22E33C2B2435C000B57A7E /* Assets.xcassets in Resources */,
+				7E22E3662B250FFB00B57A7E /* uhh.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,9 +426,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tiny Tot Sum Fun/Preview Content\"";
+				DEVELOPMENT_TEAM = D2EJM6AXT8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -424,6 +438,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,6 +446,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ios.Tiny-Tot-Sum-Fun";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,9 +458,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tiny Tot Sum Fun/Preview Content\"";
+				DEVELOPMENT_TEAM = D2EJM6AXT8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -452,6 +470,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +478,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ios.Tiny-Tot-Sum-Fun";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
